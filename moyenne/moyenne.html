@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <titel>moyenne</titel>
+    <script src="https://kit.fontawesome.com/7c3889c9e2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/moyenne.css">
+    <script src="js/moyenne.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calcul des moyens 2021-2022</h1>
+    </header>
+    <div class="arabic">
+     
+      
+     <form>
+         <fieldset> <legend>arabia</legend>
+            <span >
+             <p>الشفوي</p>
+                <input type="text" id="orale_ara">
+            </span>
+             <span> 
+                    <p> الانشاء مراقبة</p>
+                    <input type="text" id="langue_arabe1">
+                </span>
+                <span>
+                    <p>اللغة مراقبة</p>
+                    <input type="text" id="production_arabe1">
+                </span>
+            <span>
+                <p>الانشاء تأليفي</p>
+                <input type="text" id="lang_arabe">
+            </span>
+            <span>
+                <p>اللغة تأليفي</p>
+                <input type="text" id="produc_arabe">
+                </span>
+                 
+                <span>
+                    
+                    <p>moyenne de l'arabe</p>
+                    <input type="text" id="moy_ara">
+                   <br>
+                   <button onclick="arabe()">submit</button>
+                </span>
+
+                
+         
+        </fieldset>
+     </form>  
+
+    </div>
+    <form class="français">
+    <fieldset><legend>français</legend>
+    <span>
+        <p>orale</p>
+    <input type="number" id="orale_fran">
+    </span>
+    <span> 
+    <p>controle</p>
+            <input type="number" id="contrôle_fran" placeholder="clic">
+            </span>
+            <span>
+            <p>synthèse</p>
+        <input type="number" id="synthèse_fran"> 
+         </span>
+         <span>  
+        <p>moyenne</p>
+        <input type="number" id="moyenne_french">
+        <button onclick="french()">submit</button>
+        </span>
+    </fieldset>
+</form>
+<form class="anglais">
+    <fieldset><legend>English</legend>
+    <span>    
+  <p>oral</p>
+  <input type="text" id="ang_orale">
+  </span><span>
+                    <p>controle</p>
+             <input type="text" id="ang_controle">
+             </span>
+             <span>
+             <p>synthèse</p>
+              <input type="text" id="ang_synthese">
+</span>        
+<span>      
+      
+              <p>moyenne</p>
+              <input type="text" id="moyenne_anglais">
+              <button onclick="anglais()">submit</button>
+              </span>    
+            </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>math</legend>
+        <span>
+        <p>contrôle</p>
+        <input type="text" id="math_controle">
+        </span>
+        <span>
+        <p>contrôle 2</p>
+        <input type="text" id="math2">
+        </span><span>
+        <p>synthèse</p>
+        <input type="text" id="math_synthese">
+        </span><span>
+        <p>moyenne</p>
+        <input type="text" id="moyenne_math">
+        <button onclick="math()">submit</button>
+    </span>
+    </fieldset>
+</form>
+<form>
+    <fieldset><legend>physique</legend>
+        <span>
+        <p>TP</p>
+        <input type="text" id="TP_controle">
+        </span><span>
+        <p>contrôle</p>
+        <input type="text" id="physiuqe_controle">
+        </span>
+        <span>
+        <p>synthèse</p>
+        <input type="text" id="physique_synthese">    
+        </span>
+        <span>
+        <p>moyenne</p>
+        <input type="text" id="moyenne_physique">
+        <button onclick="physique()">submit</button></span>    </fieldset>
+</form>
+<form>
+    <fieldset><legend>science</legend>
+        <span>
+        <p>TP</p>
+        <input type="text" id="TPsc_controle">
+        </span><span>
+        <p>contrôle</p>
+        <input type="text" id="science_controle">
+        </span><span>
+        <p>synthèse</p>
+        <input type="text" id="science_synthese">
+        </span><span>
+        <p>moyenne</p>
+        <input type="text" id="moyenne_science">
+        <button onclick="science()">submit</button></span>
+    </fieldset>
+</form>
+<section>
+<form>
+    <fieldset><legend>technique</legend>
+        <span>
+        <p>contrôle</p>
+        <input type="text" id="tech_controle">
+        </span><span>
+        <p>synthèse</p>
+        <input type="text" id="tech_synthese">
+        </span><span>
+        <p>moyenne</p>
+        <input type="text" id="moyenne_science">
+        <button onclick="science()">submit</button></span>
+    </fieldset>
+</form>
+<form>
+    <fieldset><legend>تاريخ</legend>
+        <span>
+        <p>controle</p>
+        <input type="text" id="histoire_controle">
+        </span>
+         <span>          
+        <p>synthèse</p>
+        <input type="text" id="histoire_synthese">
+        </span><span>
+        <p>moyenne</p>
+        <input type="text" id="moyenne_hoistoire">
+        <button onclick="hsitoire()">submit</button>
+    </span>
+    </fieldset>
+</form>
+<form>
+    <fieldset><legend>جغرافيا</legend>
+        <span>
+        <p>contrôle</p>
+        <input type="text" id="geo_controle"></span>
+        <span>
+        <p>synthèse</p>
+        <input type="text" id="geo_synthese">
+        </span>
+        <span>
+        <p>moyenne</p>
+        <input type="text" id="moyenne_geo">
+        <button onclick="geo()">submit</button>
+    </span>
+</section>
+    </fieldset>
+</form>
+<form>
+    <fieldset><legend>مدنية</legend>
+       <span>
+           <p>orale</p>
+           <input type="text" id="civil_orale">
+       </span>
+        <span>
+        <p>controle</p>
+        <input type="text" id="civil_controle">
+        </span><span>
+        <p>synthèse</p>
+        <input type="text" id="civil_synthese"></span>
+        <span>        <p>moyenne</p>
+        <input type="text" id="moyenne_civil">
+        <button onclick="civil()">submit</button></span>    
+    </fieldset>
+
+</form>
+<form>
+    <fieldset><legend>إسلامية</legend>
+        <span><p>orale</p><input type="text" id="islamic_oral"></span>
+        <span><p>controle</p>
+        <input type="text" id="islamic_controle"></span>
+        <span>
+        <p>synthèse</p>
+        <input type="text" id="islamic_synthese"></span>
+        <span><p>moyenne</p>
+        <input type="text" id="moyenne_islamic">
+        <button onclick="civil()">submit</button></span>
+    </fieldset>
+
+</form>
+
+
+
+</body>
+</html>

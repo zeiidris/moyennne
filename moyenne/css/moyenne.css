@@ -1,0 +1,72 @@
+body{
+    background-color: #138df89e;
+}
+header{
+    background: -o-linear-gradient(top, rgb(79 191 188) 0%, rgb(0 128 234) 100%);
+    background: -moz-linear-gradient(top, rgb(79 191 188) 0%, rgb(0 128 234) 100%);
+    background: -webkit-linear-gradient(top, rgb(79 191 188) 0%, rgb(0 128 234) 100%);
+    text-align: center;
+    font-size: 25px;
+   font-style: oblique;
+   font-variant: small-caps;
+   height: 150px; 
+   border: dashed 10px  #cc00aa;
+   
+   border-radius: 50px;
+   margin-bottom: 2%;
+  }
+  span{
+      display: block;
+      width: 600px;
+      float: right;
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+  form{
+height: auto;
+  }
+  form  fieldset {
+      
+      background: linear-gradient(#4169e1 0%, hsl(207, 73%, 57%)) ;
+      width: 1500px;
+      height: auto;
+      border-radius: 2%;
+      margin-bottom: 2%;
+      margin-left: auto;
+      margin-right: auto;
+        
+    }
+div span{
+    display: block;
+    width:400px; 
+     height: 20%;
+    float:right;
+    margin-left: 2%;
+    margin-bottom: 2% ;
+    padding-left: 2%;
+    font-size: 18px;
+    
+}
+
+
+
+div span:nth-child(5), div span:nth-child(6){
+    display: block;
+    width: 600px; 
+     height: 20%;
+    float:right;
+    
+
+}
+div span:nth-child(7){
+    
+    display: inline-block;
+    position: relative;
+    left: -460px;
+}
+section span:nth-child(4), section span:nth-child(7), section span:nth-child(10){
+    display: inline-block;
+    position: relative;
+    left: -300px;
+}
+
